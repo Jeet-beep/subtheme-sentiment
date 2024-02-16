@@ -101,34 +101,29 @@ This file preprocesses the original data, converts the data to a multi-label cla
 This file creates the custom pytorch dataset using bert tokenizer with all the features required by bert model.
 <br>
 
-<b>[dataloader.py](https://github.com/skshashankkumar41/Subtheme-Sentiments/blob/master/dataloader.py)</b>
+<b>[dataloader.py](https://github.com/Jeet-beep/subtheme-sentiment/blob/main/dataloader.py)</b>
 <br>
 This file creates the dataset loader for both train and validation datasets in batches for training.
 
-<b>[model.py](https://github.com/skshashankkumar41/Subtheme-Sentiments/blob/master/model.py)</b><br>
+<b>[model.py](https://github.com/Jeet-beep/subtheme-sentiment/blob/main/model.py)</b><br>
 This file creates the custom bert model for multi-label classification, it uses hugging face transformers library to load pre-trained bert.
 <br>
 
-<b>[train.py](https://github.com/skshashankkumar41/Subtheme-Sentiments/blob/master/train.py)</b><br>
+<b>[train.py](https://github.com/Jeet-beep/subtheme-sentiment/blob/main/train.py)</b><br>
 This file creates the training and validation functions to train and validate the model, Evaluation metrics are also defined in this file itself.
 <br>
 
-<b>[validate.py](https://github.com/skshashankkumar41/Subtheme-Sentiments/blob/master/validate.py)</b><br>
+<b>[validate.py](https://github.com/Jeet-beep/subtheme-sentiment/blob/main/validate.py)</b><br>
 This file contains the validation function that requires data loader and model to validate the dataset.
 <br>
 
-<b>[utils.py](https://github.com/skshashankkumar41/Subtheme-Sentiments/blob/master/utils.py)</b><br>
+<b>[utils.py](https://github.com/Jeet-beep/subtheme-sentiment/blob/main/utils.py)</b><br>
 This file has some utility functions to save models, print metrics, etc.
 <br>
 
-<b>[inference.py](https://github.com/skshashankkumar41/Subtheme-Sentiments/blob/master/inference.py)</b>
+<b>[inference.py](https://github.com/Jeet-beep/subtheme-sentiment/blob/main/inference.py)</b>
 <br>
 This file contains the function for inference, we can give the reviews directly and it will predict labels using the trained bert model.
 <br>
 
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update the tests as appropriate.
 
