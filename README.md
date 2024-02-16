@@ -90,13 +90,13 @@ Output -> ['ease of booking positive', 'location positive', 'value for money pos
 This file contains all the configuration for preprocessing, training, validation, and inference of the model.
 <br>
 
-<b>[preprocess.py](https://github.com/skshashankkumar41/Subtheme-Sentiments/blob/master/preprocess.py)
+<b>[preprocess.py](https://github.com/Jeet-beep/subtheme-sentiment/blob/main/preprocess.py)
 </b>
 <br>
 This file preprocesses the original data, converts the data to a multi-label classification problem, and also stores the train and validation pickle data. All the methods for preprocessing are commented pretty well in the file itself.
 <br>
 
-<b>[dataset.py](https://github.com/skshashankkumar41/Subtheme-Sentiments/blob/master/dataset.py)</b>
+<b>[dataset.py](https://github.com/Jeet-beep/subtheme-sentiment/blob/main/dataset.py)</b>
 <br>
 This file creates the custom pytorch dataset using bert tokenizer with all the features required by bert model.
 <br>
