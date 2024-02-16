@@ -85,7 +85,7 @@ Output -> ['ease of booking positive', 'location positive', 'value for money pos
 ```
 
 ## Files 
-<b>[config.py](https://github.com/skshashankkumar41/Subtheme-Sentiments/blob/master/config.py)</b>
+<b>[config.py](https://github.com/Jeet-beep/subtheme-sentiment/blob/main/config.py)</b>
 <br>
 This file contains all the configuration for preprocessing, training, validation, and inference of the model.
 <br>
