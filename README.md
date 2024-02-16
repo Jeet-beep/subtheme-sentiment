@@ -22,7 +22,7 @@ I have tried both bert-base-uncased and bert-large-uncased pre-trained models to
 Calculate metrics globally by counting the total true positives, false negatives, and false positives. This is a better metric when we have a class imbalance.
 
 ## Results 
-After 5 Epochs model started overfitting. More Details in [Models Analysis](https://github.com/skshashankkumar41/Subtheme-Sentiments/blob/master/output/Model-Analysis.pdf) 
+After 5 Epochs model started overfitting. More Details in [Models Analysis](https://github.com/Jeet-beep/subtheme-sentiment/blob/main/output/Model-Analysis.pdf) 
 <table class="tg">
 <thead>
   <tr>
@@ -56,7 +56,7 @@ After 5 Epochs model started overfitting. More Details in [Models Analysis](http
 </table>
 
 ## Shortcomings and Improvements 
-1. As in [Data Exploration](https://github.com/skshashankkumar41/Subtheme-Sentiments/blob/master/output/Data-Exploration.pdf), we combined labels to single label based on the sentiment which have a frequency less than 100 due to which we are ignoring some labels, we can improve this by oversampling those labels by using combinations of co-occurring labels.
+1. As in [Data Exploration](https://github.com/Jeet-beep/subtheme-sentiment/blob/main/output/Data-Exploration.pdf), we combined labels to single label based on the sentiment which have a frequency less than 100 due to which we are ignoring some labels, we can improve this by oversampling those labels by using combinations of co-occurring labels.
 2. By experimenting with layers on top of pre-trained BERT could also improve results.
 3. By doing some Hyper-Parameter tuning of Batch Sizes, Learning Rate, we could improve results.
 4. I have used BCE Loss, some other loss functions could also improve results.
