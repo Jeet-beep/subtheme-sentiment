@@ -17,10 +17,6 @@ I chose Pretrained BERT models to leverage the information of Language models an
 
 I have tried both bert-base-uncased and bert-large-uncased pre-trained models to train the data. For more details check [Model Analysis](https://github.com/Jeet-beep/subtheme-sentiment/blob/main/output/Model-Analysis.pdf), bert-large-uncased is performing slightly better but due to its larger size, In this project, I stick with the bert-base-uncased. 
 
-### Performance Metrics 
-**Micro f1 score:**
-Calculate metrics globally by counting the total true positives, false negatives, and false positives. This is a better metric when we have a class imbalance.
-
 ## Results 
 After 5 Epochs model started overfitting. More Details in [Models Analysis](https://github.com/Jeet-beep/subtheme-sentiment/blob/main/output/Model-Analysis.pdf) 
 <table class="tg">
