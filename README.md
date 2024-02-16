@@ -8,7 +8,7 @@ Idea is to develop an approach that given a sample will identify the sub-themes 
 
 ## Approach
 ### Data Exploration
-During [Data Exploration](https://github.com/skshashankkumar41/Subtheme-Sentiments/blob/master/output/Data-Exploration.pdf) I came to know that there are around 10k data points and around 90 unique labels but most of them are noisy and are present in very low frequency. So, after doing some preprocessing and undersampling some more frequently occurring labels at the end we have 23 unique labels and around 6k data points. Look [Data Exploration](https://github.com/skshashankkumar41/Subtheme-Sentiments/blob/master/output/Data-Exploration.pdf) for more details.
+During [Data Exploration](https://github.com/Jeet-beep/subtheme-sentiment/blob/main/output/Data-Exploration.pdf) I came to know that there are around 10k data points and around 90 unique labels but most of them are noisy and are present in very low frequency. So, after doing some preprocessing and undersampling some more frequently occurring labels at the end we have 23 unique labels and around 6k data points. Look [Data Exploration](https://github.com/Jeet-beep/subtheme-sentiment/blob/main/output/Data-Exploration.pdf) for more details.
 
 ### My Approach
 I considered this problem as a Multi-Label classification and used pre-trained BERT models with fine-tuning to train. 
