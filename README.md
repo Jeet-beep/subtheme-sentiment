@@ -15,22 +15,11 @@ I considered this problem as a Multi-Label classification and used pre-trained B
 
 I chose Pretrained BERT models to leverage the information of Language models and as the data mostly consist of reviews, Language models would work fine, and also It is very easy to Implement. I have used Binary Cross Entropy with Logits as Loss Function.
 
-I have tried both bert-base-uncased and bert-large-uncased pre-trained models to train the data. For more details check [Model Analysis](https://github.com/skshashankkumar41/Subtheme-Sentiments/blob/master/output/Model-Analysis.pdf), bert-large-uncased is performing slightly better but due to its larger size, In this project, I stick with the bert-base-uncased. You can download the trained model from [here](https://drive.google.com/file/d/1kcs0WctkGAqLrzSI1QhsnmK05AG5gopd/view?usp=sharing).
+I have tried both bert-base-uncased and bert-large-uncased pre-trained models to train the data. For more details check [Model Analysis](https://github.com/Jeet-beep/subtheme-sentiment/blob/main/output/Model-Analysis.pdf), bert-large-uncased is performing slightly better but due to its larger size, In this project, I stick with the bert-base-uncased. 
 
 ### Performance Metrics 
 **Micro f1 score:**
 Calculate metrics globally by counting the total true positives, false negatives, and false positives. This is a better metric when we have a class imbalance.
-
-**Macro f1 score:**
-Calculate metrics for each label, and find their unweighted mean. This does not take label imbalance into account.
-
-[https://www.kaggle.com/wiki/MeanFScore](https://www.kaggle.com/wiki/MeanFScore)
-
-[http://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html](http://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html)
-
-**Hamming loss:** The Hamming loss is the fraction of labels that are incorrectly predicted.
-
-[https://www.kaggle.com/wiki/HammingLoss](https://www.kaggle.com/wiki/HammingLoss)
 
 ## Results 
 After 5 Epochs model started overfitting. More Details in [Models Analysis](https://github.com/skshashankkumar41/Subtheme-Sentiments/blob/master/output/Model-Analysis.pdf) 
